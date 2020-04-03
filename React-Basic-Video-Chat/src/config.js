@@ -1,5 +1,3 @@
-require('dotenv').config()
-
 // Make a copy of this file and save it as config.js (in the src directory).
 
 // Set this to the base URL of your sample server, such as 'https://your-app-name.herokuapp.com'.
@@ -11,9 +9,9 @@ const SAMPLE_SERVER_BASE_URL = 'http://YOUR-SERVER-URL';
 // set these values to OpenTok API key, a valid session ID, and a token for the session.
 // For test purposes, you can obtain these from https://tokbox.com/account.
 
-const API_KEY = process.env.OPENTOK_API_KEY;
-const SESSION_ID = process.env.OPENTOK_SESSION_ID;
-const TOKEN = process.env.OPENTOK_TOKEN;
+const API_KEY = process.env.REACT_APP_OPENTOK_API_KEY;
+const SESSION_ID = process.env.REACT_APP_OPENTOK_SESSION_ID;
+const TOKEN = process.env.REACT_APP_OPENTOK_TOKEN;
 
 export {
   SAMPLE_SERVER_BASE_URL,
