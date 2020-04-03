@@ -9,9 +9,9 @@ const SAMPLE_SERVER_BASE_URL = 'http://YOUR-SERVER-URL';
 // set these values to OpenTok API key, a valid session ID, and a token for the session.
 // For test purposes, you can obtain these from https://tokbox.com/account.
 
-const API_KEY = '';
-const SESSION_ID = '';
-const TOKEN = '';
+const API_KEY = process.env.OPENTOK_API_KEY;
+const SESSION_ID = process.env.OPENTOK_SESSION_ID;
+const TOKEN = process.env.OPENTOK_TOKEN;
 
 export {
   SAMPLE_SERVER_BASE_URL,

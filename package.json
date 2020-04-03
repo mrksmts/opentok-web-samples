@@ -39,5 +39,7 @@
     "wdio-sauce-service": "^0.4.8",
     "webdriverio": "^4.10.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "react-basic-video-chat": "file:React-Basic-Video-Chat"
+  }
 }
